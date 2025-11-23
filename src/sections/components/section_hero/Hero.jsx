@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div className="section-hero">
       Section Hero
-      <Button buttonText={"Weiter"}></Button>
+      <Button buttonText={"Weiter"} />
     </div>
   );
 }
