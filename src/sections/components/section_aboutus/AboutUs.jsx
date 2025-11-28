@@ -1,11 +1,12 @@
 import Button from "../../../components/button/Button";
+import "./AboutUs.css";
 
 function AboutUs() {
   return (
-    <div className="section-about-us">
+    <section className="section-about-us">
       Section About us
       <Button buttonText={"Über uns"} />
-    </div>
+    </section>
   );
 }
 

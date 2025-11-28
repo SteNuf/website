@@ -1,11 +1,12 @@
 import Button from "../../../components/button/Button";
+import "./Hero.css";
 
 function Hero() {
   return (
-    <div className="section-hero">
+    <section className="section-hero">
       Section Hero
       <Button buttonText={"Weiter"} />
-    </div>
+    </section>
   );
 }
 

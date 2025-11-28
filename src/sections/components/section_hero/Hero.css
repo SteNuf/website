@@ -1,0 +1,10 @@
+.section-hero {
+  height: calc(100vh - 5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(./Hero_Soup.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
