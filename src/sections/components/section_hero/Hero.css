@@ -3,8 +3,36 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(./Hero_Soup.jpg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(./Hero_Soup.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.section-hero__title {
+  text-align: center;
+  font-size: 6rem;
+  line-height: 6.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.section-hero__subtitle {
+  text-align: center;
+  color: white;
+  margin-bottom: 14rem;
+}
+
+.section-hero__button {
+  justify-items: center;
+  color: red;
+  height: 3rem;
+  width: fit-content;
+  padding: 1rem 2rem;
+  border: 1px solid yellow;
 }

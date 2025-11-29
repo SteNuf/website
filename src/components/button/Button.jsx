@@ -1,5 +1,5 @@
 function Button({ buttonText }) {
-  return <button>{buttonText}</button>;
+  return <button className="section-hero__button">{buttonText}</button>;
 }
 
 export default Button;

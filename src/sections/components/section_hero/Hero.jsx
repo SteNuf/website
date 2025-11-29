@@ -5,7 +5,13 @@ function Hero() {
   return (
     <section className="section-hero">
       Section Hero
-      <Button buttonText={"Weiter"} />
+      <h1 className="section-hero__title">
+        Restaurant <br /> Bankgkok
+      </h1>
+      <p className="section-hero__subtitle">
+        Originale thailändische Spetialitäten
+      </p>
+      <Button className="section-hero__button" buttonText={"Weiter"} />
     </section>
   );
 }
