@@ -6,7 +6,8 @@ function Hero() {
     <section className="section-hero">
       Section Hero
       <h1 className="section-hero__title">
-        Restaurant <br /> Bankgkok
+        Restaurant
+        <br /> Bangkok
       </h1>
       <p className="section-hero__subtitle">
         Originale thailändische Spetialitäten
