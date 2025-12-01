@@ -1,7 +1,9 @@
-function Links({ linksText }) {
+function Links({ linksText, className }) {
   return (
     <div>
-      <a href="">{linksText}</a>
+      <a href="" className={className}>
+        {linksText}
+      </a>
     </div>
   );
 }

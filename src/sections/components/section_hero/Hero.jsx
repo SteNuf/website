@@ -4,7 +4,6 @@ import "./Hero.css";
 function Hero() {
   return (
     <section className="section-hero">
-      Section Hero
       <h1 className="section-hero__title">
         Restaurant
         <br /> Bangkok
@@ -12,7 +11,10 @@ function Hero() {
       <p className="section-hero__subtitle">
         Originale thailändische Spetialitäten
       </p>
-      <Button className="section-hero__button" buttonText={"Weiter"} />
+      <Button
+        className="section-hero__button"
+        buttonText={"Öffnungszeiten ansehen"}
+      />
     </section>
   );
 }

@@ -1,0 +1,18 @@
+.section_navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+  background-color: rgba(17, 17, 17, 0.945);
+}
+
+.nav_item {
+  color: rgb(206, 28, 38, 1);
+  font-size: 1.2rem;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.nav_item:hover {
+  color: rgb(255, 255, 255, 1);
+  cursor: pointer;
+}
